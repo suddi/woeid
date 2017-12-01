@@ -1,0 +1,57 @@
+{
+  "name": "woeid",
+  "description": "Where On Earth ID",
+  "version": "1.0.0",
+  "homepage": "https://www.npmjs.com/package/woeid",
+  "author": {
+    "name": "Sudharshan Ravindran",
+    "email": "mail@suddi.io",
+    "url": "https://suddi.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suddi/woeid"
+  },
+  "bugs": {
+    "url": "https://github.com/suddi/woeid/issues"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "license": "MIT",
+  "keywords": [
+    "woeid",
+    "where-on-earth-id",
+    "country",
+    "iso-3166-alpha3",
+    "iso-3166-alpha2",
+    "yahoo"
+  ],
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 2.0.0"
+  },
+  "scripts": {
+    "check-coverage": "istanbul check-coverage",
+    "coverage": "istanbul cover _mocha -- --opts test/options/default.opts",
+    "doctest": "mocha --opts test/options/doctest.opts",
+    "lint": "eslint .",
+    "prepush": "npm test",
+    "security-check": "nsp check --output summary",
+    "test": "npm run lint && npm run security-check && npm run coverage && npm run check-coverage"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "eslint": "^4.0.0",
+    "eslint-config-suddi": "^4.0.0",
+    "husky": "^0.14.0",
+    "istanbul": "^0.4.0",
+    "mocha": "^3.0.0",
+    "nsp": "^2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "suddi/backend"
+  }
+}
