@@ -16,7 +16,8 @@
     "url": "https://github.com/suddi/woeid/issues"
   },
   "files": [
-    "lib"
+    "lib",
+    "data"
   ],
   "main": "lib/index.js",
   "license": "MIT",
