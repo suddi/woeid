@@ -1,7 +1,7 @@
 {
   "name": "woeid",
   "description": "Compute Yahoo! Where On Earth IDs for all countries",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://www.npmjs.com/package/woeid",
   "author": {
     "name": "Sudharshan Ravindran",
