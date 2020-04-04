@@ -1,6 +1,6 @@
 # woeid
 
-[![CircleCI](https://img.shields.io/circleci/project/suddi/woeid/master.svg)](https://circleci.com/gh/suddi/woeid)
+[![CircleCI](https://circleci.com/gh/suddi/woeid.svg?style=svg)](https://circleci.com/gh/suddi/woeid)
 [![codecov](https://codecov.io/gh/suddi/woeid/branch/master/graph/badge.svg)](https://codecov.io/gh/suddi/woeid)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/46408c666119432abee43f991b79cc68)](https://www.codacy.com/app/suddir/woeid)
 [![npm](https://img.shields.io/npm/v/woeid.svg)](https://www.npmjs.com/package/woeid)
