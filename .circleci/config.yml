@@ -33,3 +33,7 @@ workflows:
       - node8
       - node10
       - node12
+
+notify:
+  webhooks:
+    - url: https://bot.suddi.io/hooks/circle
